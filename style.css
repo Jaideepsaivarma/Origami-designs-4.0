@@ -1,0 +1,62 @@
+
+body {
+    background-image: url(https://images.pexels.com/photos/436791/pexels-photo-436791.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+ }
+ 
+ 
+ #Heading {
+    background-color: grey;
+    color: aliceblue;
+    position: sticky;
+ 
+}
+.camel {
+    /* margin-right: 3%; */
+    display: flex;
+    justify-content: space-around;
+}
+
+#Aboutus {
+    color: #0579ff;
+    font-family: monospace;
+    font-size: 16px;
+    position: absolute;
+    right: 2%;
+    top: 3%;
+    display:flex;
+    justify-content: space-evenly;
+    width:23%;
+    align-items: center;
+
+}
+#Aboutus a:hover {
+    text-decoration: none;
+    transform: scale(2);
+    color: white;
+}
+#Aboutus a:link {
+    color: rgb(9, 25, 250);
+    text-decoration: none;
+}
+#Heading {
+    height: 60px;
+    position: relative;
+
+}
+#FollowMe a:hover{
+    transform: scale(1.9);
+    position: static;
+}
+.camel {
+    transform: scale(1.5);
+    display: flex;
+    justify-content: space-around;
+}
+#Version {
+    display: flex;
+    justify-content: flex-end;
+   
+}
